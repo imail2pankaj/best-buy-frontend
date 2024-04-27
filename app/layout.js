@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@icon/themify-icons/themify-icons.css";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import AOSEffect from "./components/AOSEffect";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,9 +11,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <AOSEffect>
+          <Header></Header>
+          {children}
+          <Footer></Footer>
+        </AOSEffect>
+      </body>
     </html>
   );
 }
