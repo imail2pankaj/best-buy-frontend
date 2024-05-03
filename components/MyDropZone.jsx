@@ -2,7 +2,7 @@ import React, { useCallback } from 'react'
 import { Card } from 'react-bootstrap'
 import { useDropzone } from 'react-dropzone'
 
-export function MyDropzone({ setFiles }) {
+export function MyDropzone({ files, setFiles }) {
   const onDrop = useCallback(acceptedFiles => {
 
     for (let i = 0; i < acceptedFiles.length; i++) {

@@ -91,8 +91,8 @@ h6, .h6 {
 }
 
 .btn-main {
-  background: #5a8f1b;
-  color: #fff;
+  background: #5a8f1b !important;
+  color: #fff !important;
 }
 .btn-main:hover {
   color: #fff !important;

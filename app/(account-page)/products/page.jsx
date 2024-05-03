@@ -13,10 +13,15 @@ const Products = async () => {
   *,
   Brands (
     name 
+  ),
+  Images (
+    name
   )
 `);
-
-
+// console.log(data)
+//   data.map(d => {
+//     console.log(d.Images)
+//   })
   return (
     <Container>
       <Card className='p-4 mb-4'>

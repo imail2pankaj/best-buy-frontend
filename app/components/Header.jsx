@@ -52,8 +52,8 @@ const Header = ({ isLoggedIn }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/portfolio">
-                Gallery
+              <Link className="nav-link" href="/shops">
+                Shops
               </Link>
             </li>
             <li className="nav-item">

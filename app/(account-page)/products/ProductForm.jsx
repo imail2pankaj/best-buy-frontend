@@ -72,7 +72,7 @@ export const FormContent = ({ register, errors, isValid, isPending, brands, text
     <>
       <Row xs={1}>
         <Col>
-          <MyDropzone setFiles={setFiles} />
+          <MyDropzone files={files} setFiles={setFiles} />
         </Col>
       </Row>
       <Row xs={1} md={3}>
