@@ -8,7 +8,7 @@ const Contact = () => {
 					<div className="col-lg-12 mb-5">
 						<h2 className="mb-2 ">Our Services.</h2>
 						<p>Experience Reliable Computer Repair Services at Best Buy</p>
-						<p>We understand the frustration of dealing with a malfunctioning computer. Whether it's a slow system, virus
+						<p>We understand the frustration of dealing with a malfunctioning computer. Whether it&apos;s a slow system, virus
 							infection, hardware failure, or any other issue, our expert technicians are here to help.</p>
 						<p>With years of experience in the field, our team possesses the expertise and technical know-how to diagnose
 							and resolve a wide range of computer problems efficiently. We pride ourselves on our dedication to providing
@@ -21,7 +21,7 @@ const Contact = () => {
 						<div className="service-item mb-5" data-aos="fade-left">
 							<i className="ti ti-desktop"></i>
 							<h4 className="my-3">Hardware Installation:</h4>
-							<p>Whether you're upgrading your system or installing new components, our technicians can handle the
+							<p>Whether you&apos;re upgrading your system or installing new components, our technicians can handle the
 								installation process efficiently and correctly.</p>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ const Contact = () => {
 						<div className="service-item mb-5" data-aos="fade-left" data-aos-delay="450">
 							<i className="ti ti-target"></i>
 							<h4 className="my-3">Diagnostic Services:</h4>
-							<p>If you're experiencing hardware issues such as slow performance, overheating, or unusual noises, our
+							<p>If you&apos;re experiencing hardware issues such as slow performance, overheating, or unusual noises, our
 								diagnostic services can identify the root cause of the problem.</p>
 						</div>
 					</div>

@@ -7,7 +7,7 @@ const About = () => {
 			<div className="row">
 				<div className="col-lg-12 mb-5">
 					<div className="mx-auto"><h1 className="text-center mb-4">About BestBuy</h1></div>
-					<h3>"Welcome to <span className="text-color">BestBuy</span>, your trusted partner for all your computer
+					<h3>Welcome to <span className="text-color">BestBuy</span>, your trusted partner for all your computer
 						hardware needs.</h3>
 					<p>With 12 years of experience and a passion for technology, we specialize in providing expert
 						solutions for businesses and individuals alike. Our team of dedicated professionals is committed
@@ -62,7 +62,7 @@ const About = () => {
 					<p><i className="ti ti-angle-double-right text-color mr-2"></i>Expert Technicians: Our team consists of
 						skilled technicians with extensive experience in computer repair.</p>
 					<p><i className="ti ti-angle-double-right text-color mr-2"></i>Quick Turnaround: We understand the
-						importance of your time. That's why we strive to complete repairs promptly, without compromising
+						importance of your time. That&apos;s why we strive to complete repairs promptly, without compromising
 						quality.</p>
 					<p><i className="ti ti-angle-double-right text-color mr-2"></i>Quality Service: We use high-quality parts
 						and follow industry best practices to ensure reliable and long-lasting repairs.</p>
