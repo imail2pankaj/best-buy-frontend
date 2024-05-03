@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
     "@icon/themify-icons": "^1.0.1-alpha.3",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.3.0",
     "@supabase/supabase-js": "^2.42.7",
+    "@tinymce/tinymce-react": "^5.0.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
-    "next": "14.2.3",
-    "react": "^18",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18",
-    "react-type-animation": "^3.2.0"
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.51.3",
+    "react-type-animation": "^3.2.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "^14.2.3"
   }
 }

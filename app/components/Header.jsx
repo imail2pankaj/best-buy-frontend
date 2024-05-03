@@ -3,9 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import SignOutForm from "./SignOutForm";
 
-const Header = () => {
+const Header = ({ isLoggedIn }) => {
+
   return (
     <Navbar expand="lg" className="main-nav " id="navbar">
       <Container>
@@ -59,6 +61,16 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+
+            {isLoggedIn && <NavDropdown title="Account" id="basic-nav-dropdown">
+              <li className="nav-item">
+                <Link className=" p-0 nav-link" href="/products">
+                  Products
+                </Link>
+              </li>
+              <NavDropdown.Divider />
+              <SignOutForm />
+            </NavDropdown>}
           </Nav>
         </Navbar.Collapse>
       </Container>
